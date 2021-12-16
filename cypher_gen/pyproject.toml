@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "cypher_gen"
+version = "1.0.0"
+description = "Cypher generator GUI example"
+authors = ["Brandon Zazza"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+cryptography = "^36.0.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pylama = "^8.3.6"
+pydocstyle = "^6.1.1"
+pylint = "^2.12.2"
+flake8 = "^4.0.1"
+pycodestyle = "^2.8.0"
+mypy = "^0.920"
+yapf = "^0.31.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
